@@ -3,6 +3,9 @@
   "version": "0.3.0",
   "description": "",
   "main": "lib/index.js",
+  "bin": {
+    "tod": "lib/cli.js"
+  },
   "files": [
     "lib"
   ],
@@ -46,6 +49,7 @@
   },
   "homepage": "https://github.com/ngnijland/typescript-todo-or-die-plugin#readme",
   "dependencies": {
+    "commander": "^8.2.0",
     "typescript": "^4.4.3"
   },
   "devDependencies": {
